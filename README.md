@@ -1,6 +1,7 @@
+```markdown
 <div align="center">
 
-# 💳 AtomPay - Core Bancário & Gestor Financeiro
+# 💳 CoreBank API - Core Bancário & Gestor Financeiro
 
 > Uma API robusta e plataforma de gestão financeira focada em integridade de dados, transações atômicas seguras (ACID) e análise inteligente de despesas.
 
@@ -14,12 +15,12 @@
 </div>
 
 <p align="center">
-  <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1000&auto=format&fit=crop" alt="AtomPay Banner" width="700px">
+  <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1000&auto=format&fit=crop" alt="CoreBank API Banner" width="700px">
 </p>
 
 ## 📌 Sobre o Projeto
 
-O **AtomPay** é um projeto desenvolvido por estudantes de Ciência da Computação da **FECAP** durante o período de férias acadêmicas. O objetivo central é construir a infraestrutura e o núcleo transacional de uma carteira digital (fintech), abordando e solucionando desafios práticos de engenharia de software:
+O **CoreBank API** é um projeto desenvolvido por estudantes de Ciência da Computação da **FECAP** durante o período de férias acadêmicas. O objetivo central é construir a infraestrutura e o núcleo transacional de uma carteira digital (fintech), abordando e solucionando desafios práticos de engenharia de software:
 
 - **Consistência Numérica:** Armazenamento preciso de valores monetários evitando problemas de arredondamento de ponto flutuante.
 - **Transações Atômicas (ACID):** Garantia de que movimentações e transferências entre contas sejam executadas de ponta a ponta sem perda de dados em caso de falha.
@@ -62,8 +63,8 @@ Antes de iniciar, certifique-se de possuir em seu ambiente:
 
 ### 1. Clonando o Repositório
 ```bash
-git clone https://github.com/SEU-USUARIO/atompay.git
-cd atompay
+git clone https://github.com/kaueAlvesCS/api-corebank.git
+cd api-corebank
 ```
 
 ### 2. Configuração do Backend
@@ -101,23 +102,29 @@ Projeto idealizado e desenvolvido em dupla:
   <tr>
     <td align="center">
       <a href="https://github.com/kaueAlvesCS">
-        <img src="https://github.com/kaueAlvesCS.png" width="115px;" alt="Foto Kaue Alves"/><br>
-        <sub>
-          <b>Kaue Alves</b>
-        </sub>
+        <img src="https://github.com/kaueAlvesCS.png" width="110px" alt="Foto Kaue Alves"/>
       </a>
       <br />
+      <b>Kaue Alves</b>
+      <br />
       <small>Modelagem de Dados & Integridade SQL</small>
+      <br />
+      <a href="https://github.com/kaueAlvesCS">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="Perfil GitHub Kaue"/>
+      </a>
     </td>
     <td align="center">
       <a href="https://github.com/nicolasccampos">
-        <img src="https://github.com/nicolasccampos.png" width="115px;" alt="Foto Nicolas"/><br>
-        <sub>
-          <b>Nicolas</b>
-        </sub>
+        <img src="https://github.com/nicolasccampos.png" width="110px" alt="Foto Nicolas"/>
       </a>
       <br />
+      <b>Nicolas Campos</b>
+      <br />
       <small>Arquitetura Backend & Segurança</small>
+      <br />
+      <a href="https://github.com/nicolasccampos">
+        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="Perfil GitHub Nicolas"/>
+      </a>
     </td>
   </tr>
 </table>
