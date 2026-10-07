@@ -141,4 +141,3 @@ Projeto desenvolvido como prática de férias por graduandos da:
 ## 📝 Licença
 
 Este projeto está sob os termos da licença **MIT**. Consulte o arquivo [LICENSE](LICENSE) para obter mais informações.
-```
