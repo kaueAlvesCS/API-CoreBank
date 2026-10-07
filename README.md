@@ -2,7 +2,7 @@
 
 # 💳 CoreBank API
 
-> Projeto prático desenvolvido durante as férias para colocar a mão na massa, superar dificuldades com desenvolvimento web e consolidar conhecimentos em Backend e Banco de Dados.
+> Projeto prático desenvolvido por dois amigos com o objetivo de aprofundar e consolidar conhecimentos em desenvolvimento backend e banco de dados.
 
 ![Status](https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-yellow?style=for-the-badge)
 [![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
@@ -13,89 +13,79 @@
 
 </div>
 
-<p align="center">
-  <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1000&auto=format&fit=crop" alt="CoreBank API Banner" width="700px">
-</p>
-
 ## 📌 Sobre o Projeto
 
-O **CoreBank API** nasceu de uma iniciativa própria minha (Kaue) e do meu colega de faculdade (Nicolas) durante as férias do nosso 2º semestre de Ciência da Computação na **FECAP**. 
+O **CoreBank API** é um projeto criado para fins puramente práticos e de estudo. A ideia principal é construir uma API do zero em dupla, superando as dificuldades com ecossistema web e praticando a integração real entre código e banco de dados.
 
-Como vínhamos de uma base em C# e sentíamos bastante dificuldade com programação web, decidimos aproveitar o período de recesso para criar um projeto do zero em dupla. O objetivo não é criar um sistema comercial pronto, mas sim ter um laboratório real para:
-
-- Entender como funciona a comunicação entre uma API e um banco de dados.
-- Praticar a criação de tabelas, chaves e relacionamentos no **PostgreSQL**.
-- Aprender a usar o **Node.js com TypeScript** na prática para construir rotas e regras de negócio.
-- Perder o receio de ferramentas web e aprender a versionar um projeto em equipe pelo **Git e GitHub**.
-
-A aplicação simula uma carteira digital simples: o usuário pode criar uma conta, registrar seus gastos e ganhos do dia a dia e simular transferências de saldo fictício para outros usuários cadastrados.
+O sistema simula as operações básicas de uma carteira digital simples:
+- Cadastro e controle de contas de usuários.
+- Registro de entradas (depósitos) e saídas (despesas).
+- Simulação de transferências de saldo entre usuários cadastrados.
+- Consulta de extrato das movimentações realizadas.
 
 ---
 
-## 🎯 O que estamos praticando e aprendendo
+## 🎯 Objetivos de Aprendizado
 
-- [x] Configuração de ambiente e conexão do Node com banco relacional.
-- [x] Modelagem de tabelas e relacionamentos usando o **Prisma ORM**.
-- [ ] Criação de rotas HTTP (GET, POST, etc.) e retorno de dados em JSON.
-- [ ] Lógica para atualizar saldos (somar depósitos, subtrair compras e transferências).
-- [ ] Boas práticas de organização de pastas no backend.
-- [ ] Noções de front-end com React para consumir essa API no final do projeto.
+- Modelagem e manipulação de banco de dados relacional com **PostgreSQL**.
+- Utilização do **Prisma ORM** para migrações e consultas.
+- Construção de rotas, regras de negócio e validações com **Node.js** e **TypeScript**.
+- Prática de versionamento e colaboração em equipe através do **Git e GitHub**.
 
 ---
 
-## 🛠️ Tecnologias Escolhidas
+## 🛠️ Tecnologias Utilizadas
 
-- **Backend:** Node.js com TypeScript
+- **Linguagem:** Node.js com TypeScript
 - **Banco de Dados:** PostgreSQL
-- **Ferramenta de Banco (ORM):** Prisma
-- **Documentação de Rotas:** Swagger
-- **Interface (Futura):** React (apenas para testar as rotas de forma visual)
+- **ORM:** Prisma
+- **Documentação:** Swagger
 
 ---
 
 ## 🚀 Funcionalidades Previstas
 
-- [ ] **Cadastro e Login:** Criação de conta simples para o usuário acessar o sistema.
-- [ ] **Carteira:** Cada usuário cadastrado inicia com uma conta com saldo zerado.
-- [ ] **Movimentações Básicas:** Registrar entradas (dinheiro que entrou) e saídas (gastos).
-- [ ] **Transferência Fictícia:** Poder enviar um valor da sua conta para a conta de outro usuário cadastrado.
-- [ ] **Extrato:** Listagem simples de todas as entradas e saídas que o usuário realizou.
+- [ ] Cadastro e login de usuários.
+- [ ] Criação automática de carteira para cada usuário.
+- [ ] Registro de despesas e depósitos.
+- [ ] Transferência de saldo fictício entre contas.
+- [ ] Consulta de histórico e extrato de transações.
 
 ---
 
 ## 💻 Pré-requisitos
 
-Para rodar o projeto localmente quando estiver concluído, é necessário ter instalado:
+Para testar o projeto localmente:
 * [Node.js](https://nodejs.org/)
 * [Git](https://git-scm.com/)
-* Acesso a uma instância de [PostgreSQL](https://www.postgresql.org/) (local ou na nuvem)
+* Banco de dados [PostgreSQL](https://www.postgresql.org/) rodando localmente ou na nuvem.
 
 ---
 
-## ⚙️ Como Rodar o Projeto
+## ⚙️ Instalação e Execução
 
 ```bash
-# 1. Clone o repositório
+# Clone o repositório
 git clone https://github.com/kaueAlvesCS/api-corebank.git
 cd api-corebank
 
-# 2. Acesse a pasta do backend e instale as dependências
+# Acesse o backend e instale as dependências
 cd backend
 npm install
 
-# 3. Configure a conexão do seu banco no arquivo .env
+# Configure as variáveis de ambiente com os dados do seu banco
 cp .env.example .env
 
-# 4. Rode as migrações para criar as tabelas no seu PostgreSQL
+# Execute as migrações do banco de dados
 npx prisma migrate dev
 
-# 5. Inicie o servidor em modo de desenvolvimento
+# Inicie o servidor
 npm run dev
 ```
 
 ---
 
-## 🤝 Quem Está Desenvolvendo
+## 🤝 Colaboradores
 
 <table>
   <tr>
@@ -105,8 +95,6 @@ npm run dev
       </a>
       <br />
       <b>Kaue Alves</b>
-      <br />
-      <small>Foco: Banco de Dados (PostgreSQL & Prisma)</small>
       <br />
       <a href="https://github.com/kaueAlvesCS">
         <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="Perfil GitHub Kaue"/>
@@ -119,8 +107,6 @@ npm run dev
       <br />
       <b>Nicolas Campos</b>
       <br />
-      <small>Foco: Backend & Rotas da API (Node.js & TS)</small>
-      <br />
       <a href="https://github.com/nicolasccampos">
         <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="Perfil GitHub Nicolas"/>
       </a>
@@ -130,11 +116,6 @@ npm run dev
 
 ---
 
-## 🎓 Faculdade
-
-Projeto desenvolvido para fins de estudo e prática por alunos de Ciência da Computação da:  
-**FECAP - Fundação Escola de Comércio Álvares Penteado**
-
----
-
 ## 📝 Licença
+
+Este projeto está sob os termos da licença **MIT**.
