@@ -1,4 +1,3 @@
-```markdown
 <div align="center">
 
 # 💳 CoreBank API - Core Bancário & Gestor Financeiro
