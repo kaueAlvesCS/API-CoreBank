@@ -1,4 +1,4 @@
-```markdown
+
 <div align="center">
   <h1>🏦 API-CoreBank</h1>
   <p><b>API e Plataforma de Gestão Financeira com foco em integridade de dados e regras bancárias.</b></p>
