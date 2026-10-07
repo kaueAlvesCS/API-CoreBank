@@ -101,7 +101,7 @@ Projeto idealizado e desenvolvido em dupla:
   <tr>
     <td align="center">
       <a href="https://github.com/kaueAlvesCS">
-        <img src="https://github.com/SEU-USUARIO.png" width="115px;" alt="Foto Kaue Alves"/><br>
+        <img src="https://github.com/kaueAlvesCS.png" width="115px;" alt="Foto Kaue Alves"/><br>
         <sub>
           <b>Kaue Alves</b>
         </sub>
@@ -111,7 +111,7 @@ Projeto idealizado e desenvolvido em dupla:
     </td>
     <td align="center">
       <a href="https://github.com/nicolasccampos">
-        <img src="https://github.com/USUARIO-NICOLAS.png" width="115px;" alt="Foto Nicolas"/><br>
+        <img src="https://github.com/nicolasccampos.png" width="115px;" alt="Foto Nicolas"/><br>
         <sub>
           <b>Nicolas</b>
         </sub>
