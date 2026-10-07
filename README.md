@@ -13,6 +13,10 @@
 
 </div>
 
+<p align="center">
+  <img src="https://images.unsplash.com/photo-1559526324-4b87b5e36e44?q=80&w=1000&auto=format&fit=crop" alt="CoreBank API Banner" width="700px">
+</p>
+
 ## 📌 Sobre o Projeto
 
 O **CoreBank API** é um projeto criado para fins puramente práticos e de estudo. A ideia principal é construir uma API do zero em dupla, superando as dificuldades com ecossistema web e praticando a integração real entre código e banco de dados.
