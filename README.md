@@ -1,7 +1,3 @@
-# Proibido IA !!!
-
-
-
 <div align="center">
 
 # 💳 CoreBank API
